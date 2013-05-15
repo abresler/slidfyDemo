@@ -2,15 +2,15 @@
 title       : Slidfy Demo
 subtitle    : HTML5 slides from R Markdowm
 author      : Alex Bresler
-job         : Bad ASs
+job         : Bad ASS
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 github:
-	user:abresler
-	repo:slidifyDemo
+  user: abresler
+  repo: slidfyDemo
 ---
 
 ## Read-And-Delete
@@ -35,7 +35,7 @@ Animated List
 
 ```{r echo = F, results='asis',message=F}
 require(googleVis)
-M1= gvisMotionChart(Fruits,idvar='Fruit',timevar="Year")
+M1=gvisMotionChart(Fruits,idvar='Fruit',timevar="Year")
 print(M1,tag='chart')
 ```
 

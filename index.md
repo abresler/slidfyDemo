@@ -2,15 +2,15 @@
 title       : Slidfy Demo
 subtitle    : HTML5 slides from R Markdowm
 author      : Alex Bresler
-job         : Bad ASs
+job         : Bad ASS
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 github:
-	user:abresler
-	repo:slidifyDemo
+  user: abresler
+  repo: slidfyDemo
 ---
 
 ## Read-And-Delete
@@ -34,14 +34,14 @@ Animated List
 ## Motion Chart
 
 <!-- MotionChart generated in R 3.0.0 by googleVis 0.4.2 package -->
-<!-- Wed May 15 18:58:03 2013 -->
+<!-- Wed May 15 19:03:50 2013 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataMotionChartID1f161261a77d () {
+function gvisDataMotionChartID1f6e746e8d61 () {
   var data = new google.visualization.DataTable();
   var datajson =
 [
@@ -139,14 +139,14 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartMotionChartID1f161261a77d() {
-  var data = gvisDataMotionChartID1f161261a77d();
+function drawChartMotionChartID1f6e746e8d61() {
+  var data = gvisDataMotionChartID1f6e746e8d61();
   var options = {};
 options["width"] =    600;
 options["height"] =    500;
 
      var chart = new google.visualization.MotionChart(
-       document.getElementById('MotionChartID1f161261a77d')
+       document.getElementById('MotionChartID1f6e746e8d61')
      );
      chart.draw(data,options);
     
@@ -170,9 +170,9 @@ options["height"] =    500;
     pkgs.push(chartid);
 
   // Add the drawChart function to the global list of callbacks
-  callbacks.push(drawChartMotionChartID1f161261a77d);
+  callbacks.push(drawChartMotionChartID1f6e746e8d61);
 })();
-function displayChartMotionChartID1f161261a77d() {
+function displayChartMotionChartID1f6e746e8d61() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -196,11 +196,11 @@ function displayChartMotionChartID1f161261a77d() {
  </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID1f161261a77d"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartMotionChartID1f6e746e8d61"></script>
  
 <!-- divChart -->
   
-<div id="MotionChartID1f161261a77d"
+<div id="MotionChartID1f6e746e8d61"
   style="width: 600px; height: 500px;">
 </div>
 
